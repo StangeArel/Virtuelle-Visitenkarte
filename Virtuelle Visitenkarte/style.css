@@ -1,0 +1,79 @@
+/*  Zentriert die Visitenkarte in der Mitte des Bildschirms. */
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #e0d9d9;
+    font-family: Arial, sans-serif;
+}
+
+/*  Verleiht der Visitenkarte:
+eine weiße Hintergrundfarbe,
+abgerundete Ecken und 
+einen Schatten. */
+.card {
+    background-color: #e0d9d9;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/*  Setzen das Profilbild als abgerundetes Bild mit einem Rahmen. */
+.card-header {
+    background-color: #4a90e2;
+    padding: 20px;
+}
+
+/*  Setzen das Profilbild als abgerundetes Bild mit einem Rahmen. */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+/*  Gestalten die Hauptinformationen und den Bearbeitungs-Button. */
+.card-body {
+    background-color: #a6a4a4;
+    padding: 20px;
+}
+
+.card-body h1 {
+    margin: 10px 0 5px;
+    font-size: 25px;
+    color: #333;
+}
+
+.card-body p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #777;
+}
+
+/*  Gestalten die Hauptinformationen und den Bearbeitungs-Button. */
+.card-footer {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+color: #fff;
+background-color: #777;
+cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #777;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+    border: 3px solid #fff;
+    color: #333;
+    background-color: #e0d9d9;
+    line-height: 1.5;
+    font-size: 105%;
+}
